@@ -22,8 +22,7 @@
 	<br />
 	<br />算数运算：
 	<#-- 支持"+"、"－"、"*"、"/"、"%"运算符 -->
-	<#assign number1=10 >
-	<#assign number2=5 >
+	<#assign number1=10 number2=5 >
 	<br />"+":${number1 + number2 }
 	<br />"-":${number1 - number2 }
 	<br />"*":${number1 * number2 }
