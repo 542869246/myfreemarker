@@ -58,6 +58,8 @@ public class FreeMarkerDemo {
 			dataMap.put("classPath", "com.freemarker.hello");
 			dataMap.put("htmlName", "使用FreeMarker生成html模板");
 			dataMap.put("helloWorld", "通过简单的 <代码自动生产程序> 演示 FreeMarker的HelloWorld！");
+			dataMap.put("author", "周宇峰");
+			dataMap.put("github", "github.com/542869246");
 			dataMap.put("name", "abcdefg");
 			dataMap.put("dateTime",new Date());
 			dataMap.put("users", users);
