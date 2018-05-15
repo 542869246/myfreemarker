@@ -10,6 +10,7 @@
 	<h3>${htmlName }</h3>
 	<h4>${helloWorld }</h4>
 	<hr style='color: #eee' />
+	${num}<br/>
 	字符串输出:
 	<br /> ${"Hello ${name} !"} / ${"Hello " + name + " !"} <#assign
 	cname=r"特殊字符完成输出(http:\www.baidu.com)">
