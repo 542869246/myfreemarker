@@ -63,7 +63,7 @@ public class FreeMarkerDemo {
 			dataMap.put("author", "周宇峰");
 			dataMap.put("github", "github.com/542869246");
 			dataMap.put("name", "abcdefg");
-			dataMap.put("num", 123456);
+			dataMap.put("num", 1234561);
 			dataMap.put("dateTime",new Date());
 			dataMap.put("users", users);
 			
