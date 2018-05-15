@@ -53,6 +53,8 @@ public class FreeMarkerDemo {
 		try {
 			// step2 获取模版路径
 			configuration.setDirectoryForTemplateLoading(new File(TEMPLATE_PATH));
+			//格式数字
+			configuration.setNumberFormat("0.######");
 			// step3 创建数据模型
 			Map<String, Object> dataMap = new HashMap<String, Object>();
 			dataMap.put("classPath", "com.freemarker.hello");
@@ -61,6 +63,7 @@ public class FreeMarkerDemo {
 			dataMap.put("author", "周宇峰");
 			dataMap.put("github", "github.com/542869246");
 			dataMap.put("name", "abcdefg");
+			dataMap.put("num", 123456);
 			dataMap.put("dateTime",new Date());
 			dataMap.put("users", users);
 			
